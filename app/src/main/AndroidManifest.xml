@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.votingsytem">
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.SEND_SMS" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ecnew"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".RegistrationActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"></activity>
+        <activity
+            android:name=".CameraPhotoCapture"
+            android:label="@string/app_name"></activity>
+        <activity
+            android:name=".LoginActivity"
+            android:label="@string/title_activity_login"
+            android:screenOrientation="portrait"></activity>
+        <activity
+            android:name=".VoteListActivity"
+            android:label="@string/title_activity_vote_list"
+            android:screenOrientation="portrait"></activity>
+        <activity
+            android:name=".SplashActivity"
+            android:icon="@drawable/ecindianew"
+            android:label="VOTE INDIA">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Changepwd"
+            android:label="@string/title_activity_changepwd"
+            android:screenOrientation="portrait"></activity>
+        <activity
+            android:name=".FirstPageActivity"
+            android:label="@string/title_activity_home"
+            android:screenOrientation="portrait"></activity>
+        <activity
+            android:name=".HomeActivity"
+            android:label="@string/title_activity_first"
+            android:screenOrientation="portrait"></activity>
+        <activity
+            android:name=".Result"
+            android:label="@string/title_activity_result"
+            android:screenOrientation="portrait"></activity>
+        <activity
+            android:name=".Forgotpwd"
+            android:label="@string/title_activity_forgot__password"
+            android:screenOrientation="portrait"></activity>
+        <activity
+            android:name=".Profile"
+            android:label="@string/title_activity_profile"
+            android:screenOrientation="portrait"></activity>
+        <activity
+            android:name=".Schedule"
+            android:label="@string/title_activity_schedule"
+            android:screenOrientation="portrait"></activity>
+        <activity
+            android:name=".Registration_otp"
+            android:label="@string/title_activity_registration_otp"></activity>
+        <activity
+            android:name=".Vote_otp"
+            android:label="@string/title_activity_vote_otp"></activity>
+        <activity
+            android:name=".Contact"
+            android:label="@string/title_activity_contact"></activity>
+        <activity
+            android:name=".FAQ"
+            android:label="@string/title_activity_faq"></activity>
+
+        <!-- [START firebase_service] -->
+        <service android:name=".fcm.MyFirebaseMessagingService">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+        <!-- [END firebase_service] -->
+        <!-- [START firebase_iid_service] -->
+        <service android:name=".fcm.MyFirebaseInstanceIDService">
+            <intent-filter>
+                <action android:name="com.google.firebase.INSTANCE_ID_EVENT" />
+            </intent-filter>
+        </service>
+
+
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="@string/google_place_api" />
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+
+    </application>
+
+</manifest>

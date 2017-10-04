@@ -1,0 +1,25 @@
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <!-- Define the background properties like color etc -->
+    <item android:id="@android:id/background">
+        <shape>
+
+           
+               <!--  <gradient
+                android:centerColor="#FEF0DB"
+                android:endColor="#1E90FF"
+                android:startColor="#1E90FF"
+                 />             
+ -->
+            <!-- <stroke
+                android:width="1dp"
+                android:color="#000000" />
+ -->
+    <!--   <corners android:radius="5dp" /> -->
+
+            <solid android:color="#6495ED"/>
+ 
+        </shape>
+    </item>
+
+</layer-list>

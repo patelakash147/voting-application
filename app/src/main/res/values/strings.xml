@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Voting system</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="forgot_pas"><u>Forgot Password?</u></string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="title_activity_vote_list">VoteListActivity</string>
+    <string name="title_activity_splash">SplashActivity</string>
+    <string name="title_activity_changepwd">Changepwd</string>
+    <string name="title_activity_home">Home</string>
+    <string name="title_activity_first">FirstActivity</string>
+    <string name="title_activity_viewpager">Viewpager</string>
+    <string name="title_activity_frag1">Frag1</string>
+    <string name="title_activity_frag2">Frag2</string>
+    <string name="title_activity_frag3">Frag3</string>
+    <string name="title_activity_result">Result</string>
+
+    <string-array name="year_list">
+        <item>2014</item>
+        <item>2015</item>
+        <item>2016</item>
+    </string-array>
+
+    <string name="title_activity_forgot__password">Forgot_Password</string>
+    <string name="title_activity_profile">Profile</string>
+    <string name="title_activity_schedule">Schedule</string>
+    <string name="title_activity_registration_otp">Registration_otp</string>
+    <string name="title_activity_voterid_img">Voterid_img</string>
+    <string name="title_activity_voter_image">Voter_image</string>
+    <string name="title_activity_vote_otp">Vote_otp</string>
+    <string name="title_activity_contact">Contact</string>
+
+    <string-array name="city_name">
+        <item>Select</item>
+        <item>Rajkot</item>
+        <item>Ahmedabad</item>
+        <item>Gandhinagar</item>
+        <item>Baroda</item>
+        <item>Surat</item>
+    </string-array>
+
+    <string name="title_activity_faq">FAQ</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="google_place_api">AIzaSyDcJ56ZFNcLFq__ZlqIpAhG5MIZlbMhMLg</string>  <!--//Live-->
+</resources>

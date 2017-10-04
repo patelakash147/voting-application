@@ -1,0 +1,38 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".FirstPageActivity" >
+
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="45dp"
+        android:src="@drawable/ecindia" />
+
+    <Button
+        android:id="@+id/txt_login"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginTop="70dp"
+        android:background="@drawable/custom_bg_color"
+        android:gravity="center"
+        android:paddingLeft="10dp"
+        android:paddingTop="10dp"
+        android:text="LogIn"
+        android:textSize="30sp" />
+
+    <Button
+        android:id="@+id/txt_registration"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/custom_bg_color"
+        android:paddingLeft="10dp"
+        android:paddingTop="10dp"
+        android:text="Registration"
+        android:textSize="30sp" />
+
+</LinearLayout>
